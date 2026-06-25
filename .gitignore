@@ -1,0 +1,40 @@
+# Java
+backend/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Node
+frontend/node_modules/
+mcp-server/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite temp
+knowledge.db-shm
+knowledge.db-wal
+
+# Misc
+backend/logs/
+backend/uploads/
+mcp-server/dist/
+*.apk
